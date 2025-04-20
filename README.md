@@ -1,10 +1,15 @@
 # CNN Classification of Geomagnetic Storms from Wavelet Spectrograms
+# Geomagnetic Storm Classifier (Wavelet + CNN)
 
-This project implements a Convolutional Neural Network (CNN) in Python using Keras to classify geomagnetic storm days from quiet days. The input to the model consists of daily wavelet spectrogram images derived from SYM-H index data.
+This project uses **wavelet spectrograms** of geomagnetic field data to classify days as either **storm** or **quiet** using a **Convolutional Neural Network (CNN)**.
 
-The goal is to train a CNN to recognize patterns in spectrograms that correspond to geomagnetically active ("storm") days versus inactive ("quiet") ones.
+---
 
-The code includes:
-- Data preparation and filtering based on SYM-H threshold
-- Image classification using CNN
-- Visualization of training performance
+## 🌍 Motivation
+
+Geomagnetic storms are critical space weather events that can disrupt power grids, GPS, and satellites. This project explores the feasibility of identifying storm days directly from **spectrogram images** built using time-frequency analysis (e.g., wavelet transforms).
+
+---
+
+## 📁 Directory Structure
+
